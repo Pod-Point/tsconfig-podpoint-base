@@ -1,0 +1,14 @@
+{
+  "name": "@pod-point/tsconfig-podpoint-base",
+  "version": "0.1.0",
+  "description": "Base tsconfig.json for Pod Point TypeScript projects",
+  "main": "tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pod-Point/tsconfig-podpoint-base.git"
+  },
+  "author": "POD Point Software Team <software@pod-point.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
