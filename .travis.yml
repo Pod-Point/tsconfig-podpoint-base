@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - 6
+
+deploy:
+  provider: npm
+  email: software@pod-point.com
+  api_key:
+    secure: S+Pa6ZhQQDfHOUq8NiY71VEedpz69AUMEk26rOja5kJZY0OC1ZI4gdhgpGHr9Qy7Hi+HHccZgW152r21d/hotIYWXCzUY950bth/4uyigwkFBi/nHzdCY2xwXgWgOK+UOtw01BcakoYsDZUv+N5iLqeIBcmwBjVmxUsm4df+1LA6L3ZgTwEaNeiuaxFWZhj0+TIKip5mIPk2OwLCycFJlg3Qq8gb1u5bb1/jt4Leq6n5Ee0MgB7Iicw/WPLUIeKVasd10GrlPOoclCcOpBiyhgAikGZmqZoJ4Ube6BboJCY2o3AGe2nRgRIag6j2b5t9xrPusCRgghGJYhO2I6KfJnEZrBNrwyIt06rgzd5jylLgcQlx83oL5nkIAbkuQzWeEy1Mmy//cHw14YVb0gDomyJJqYhxz6iyct2gnL3NiX1xTnL51m+T7D3r+T7KatsXuSx1AyNj6c78cFUPJr+CcpA1oP+T05Gz1H7ZA8IdV/R3a+HVjUYuZed0w8+MzU85cJgayiFea2ct0LLk0UsKSvrv2RJ4OrfgDgCy1aPigVBqM4Wop/OLfyoHlXIIWOecxBkr/6nlJR155QVEp9XgzIGezXvAdvJcDX0rJnxQHrVxKJ2rO6RzbZR/S2pMP1BnRsYpibhsH68a+vx9PPFFATHGixeTrGb+JzlHHKLnpwY=
+  on:
+    repo: Pod-Point/tsconfig-podpoint-base
+    branch: master

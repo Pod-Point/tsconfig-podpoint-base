@@ -1,4 +1,6 @@
 # tsconfig-podpoint-base
+[![npm](https://img.shields.io/npm/v/@pod-point/tsconfig-podpoint-base.svg)](https://www.npmjs.com/package/@pod-point/tsconfig-podpoint-base)
+
 Base tsconfig.json for Pod Point TypeScript projects
 
 ## Usage
